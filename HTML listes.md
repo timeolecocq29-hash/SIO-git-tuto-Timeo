@@ -45,43 +45,39 @@
 
 
 
-Les listes en HTML
-En HTML, on utilise des listes pour afficher plusieurs éléments les uns à la suite des autres.
-Il existe principalement deux types de listes :
-<ul> : une liste à puces
-<ol> : une liste numérotée
-<li> : un élément de la liste
-1. La liste à puces avec <ul>
-<ul> signifie Unordered List, c'est-à-dire « liste non ordonnée ».
-Chaque élément est placé dans une balise <li>.
-<ul>
-  <li>Pomme</li>
-  <li>Banane</li>
-  <li>Orange</li>
-</ul>
-Cela donnera :
-Pomme
-Banane
-Orange
-2. La liste numérotée avec <ol>
-<ol> signifie Ordered List, c'est-à-dire « liste ordonnée ».
-Le navigateur ajoute automatiquement les numéros.
-<ol>
-  <li>Se lever</li>
-  <li>Prendre son petit-déjeuner</li>
-  <li>Aller à l'école</li>
-</ol>
-Cela donnera :
-Se lever
-Prendre son petit-déjeuner
-Aller à l'école
-3. À quoi sert <li> ?
-<li> signifie List Item, c'est-à-dire « élément de liste ».
-Il faut mettre chaque élément dans une balise <li>.
-Par exemple :
-<ul>
-  <li>Rouge</li>
-  <li>Vert</li>
-  <li>Bleu</li>
-</ul>
-Ici, il y a 3 éléments dans la liste.
+Pour créer des listes en HTML, il faut retenir 3 balises principales :
+
+<ul> : permet de créer une liste non ordonnée. Les éléments apparaissent généralement avec des petits points.
+
+<ol> : permet de créer une liste ordonnée. Les éléments apparaissent avec des numéros.
+
+<li> : représente un élément de la liste.
+
+Exemple simple
+Imagine que tu veux faire une liste de fruits.
+
+Avec une liste non ordonnée, tu obtiens :
+
+· Pomme
+
+· Banane
+
+· Orange
+
+Avec une liste ordonnée, tu obtiens :
+
+1. Pomme
+
+2. Banane
+
+3. Orange
+
+La différence est donc très simple :
+
+ul = liste avec des points
+
+ol = liste avec des numéros
+
+li = élément de la liste
+
+Tu peux aussi mettre une liste à l'intérieur d'une autre. Par exemple, avoir une catégorie Fruits avec Pomme et Banane à l'intérieur.
